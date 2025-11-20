@@ -1,3 +1,8 @@
+**WEBSITE URL:**
+                 http://pottery-website.s3-website.eu-north-1.amazonaws.com/
+                 
+
+
 # website-pottery
 
 ClayCraft Pottery Studio – Website
