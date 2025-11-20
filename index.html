@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pottery Studio | Classes, History & Workshops</title>
+
+<link rel="icon" type="image/jpeg" href="https://www.rainbowcoloringpages.com/cp/ancient-greek-pot-flowers-patterns-1.jpeg">
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #faf7f2;
+        }
+
+        header {
+            background: #5a3921;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #f0e4d7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://static.wixstatic.com/media/83b274_b1c8d4b7bbbb45bf8ba17ce480a14728~mv2.jpg/v1/fill/w_522,h_288,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/83b274_b1c8d4b7bbbb45bf8ba17ce480a14728~mv2.jpg') center/cover no-repeat;
+            padding: 120px 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .content-section {
+            padding: 50px 20px;
+        }
+
+        .alt {
+            background: #ede6df;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .feature-list li {
+            padding: 8px 0;
+        }
+
+        .img-full {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 6px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input,
+        form select {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px;
+            background: #5a3921;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #744d2c;
+        }
+
+        footer {
+            background: #5a3921;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ClayCraft Pottery Studio</h1>
+        <nav>
+            <a href="#history">History of Pottery</a>
+            <a href="#classes">Pottery Classes</a>
+            <a href="#workshops">Workshops</a>
+            <a href="#enroll">Enroll Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover the Art of Pottery</h2>
+        <p>Learn, create, and explore the ancient craft of clay shaping.</p>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="content-section">
+        <h2>History of Pottery</h2>
+        <p>
+            Pottery is one of the oldest human inventions, dating back to over
+            20,000 years. Across civilizations—from ancient China to the 
+            Mediterranean—the art of shaping clay has served practical, artistic,
+            and cultural purposes. Today, pottery remains a timeless craft that 
+            combines creativity, skill, and tradition.
+        </p>
+
+        <img src="https://static.vecteezy.com/system/resources/previews/009/501/819/non_2x/clay-pots-collection-vector.jpg"
+            alt="Ancient pottery image" class="img-full" />
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="content-section alt">
+        <h2>Pottery Classes</h2>
+        <ul class="feature-list">
+            <li><strong>Beginner Wheel Throwing:</strong> Learn basic shaping and trimming.</li>
+            <li><strong>Hand-Building Basics:</strong> Master coils, slabs, and pinching techniques.</li>
+            <li><strong>Glazing & Finishing:</strong> Explore colors, textures, and firing methods.</li>
+            <li><strong>Advanced Techniques:</strong> Sculptural pottery, precision shaping, and carving.</li>
+        </ul>
+        <img src="https://housing.com/news/wp-content/uploads/2024/02/Best-pottery-classes-in-Delhi-f.jpg"
+            alt="Pottery class" class="img-full" />
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="content-section">
+        <h2>Pottery Workshops</h2>
+        <p>
+            We host monthly workshops for all ages and skill levels. These sessions
+            include intensive hands-on practice, guided instruction, and access to
+            professional tools and clay materials.
+        </p>
+
+        <ul class="feature-list">
+            <li>Weekend Intensive Workshop</li>
+            <li>Family & Kids Clay Day</li>
+            <li>Ceramic Sculpture Workshop</li>
+            <li>Seasonal Themed Pottery Sessions</li>
+        </ul>
+        <img src="https://www.dharamkotstudio.com/wp-content/uploads/2024/11/hand-building-pottery-workshop.jpg"
+            alt="Pottery workshop" class="img-full" />s
+
+
+    </section>
+
+    <!-- Enrollment Section -->
+    <section id="enroll" class="content-section alt">
+        <h2>Enroll in a Class</h2>
+        <p>Sign up below to join our pottery classes or workshops.</p>
+
+        <form id="enrollForm">
+            <label>Name</label>
+            <input type="text" name="name" required />
+
+            <label>Email</label>
+            <input type="email" name="email" required />
+
+            <label>Select Program</label>
+            <select name="program" required>
+                <option value="">-- Choose a Class/Workshop --</option>
+                <option value="Beginner Wheel Throwing">Beginner Wheel Throwing</option>
+                <option value="Hand-Building Basics">Hand-Building Basics</option>
+                <option value="Glazing & Finishing">Glazing & Finishing</option>
+                <option value="Weekend Intensive Workshop">Weekend Intensive Workshop</option>
+                <option value="Kids Clay Day">Kids Clay Day</option>
+            </select>
+
+            <button type="submit">Submit Enrollment</button>
+        </form>
+
+        <p id="responseMsg"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Personal Pottery enthusiastic | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("enrollForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const name = this.name.value;
+            const program = this.program.value;
+
+            document.getElementById("responseMsg").innerText =
+                `Thanks, ${name}! Your enrollment for "${program}" is received. We will contact you shortly!`;
+
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
