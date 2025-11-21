@@ -1,6 +1,5 @@
 **WEBSITE URL:**
-                 http://pottery-website.s3-website.eu-north-1.amazonaws.com/
-                 
+                  https://d1qdfszk1zw83d.cloudfront.net/                 
 
 
 # website-pottery
