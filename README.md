@@ -41,8 +41,8 @@ Fade-in text animation
 Floating particle effects
 
 Navigation
-
-A fixed, simple, and easy-to-use navigation bar linking to:
+**
+A fixed, simple, and easy-to-use navigation bar linking to:**
 
 History
 
@@ -53,8 +53,8 @@ Workshops
 Enrollment
 
 Pottery Classes Section
-
-Descriptions of class offerings including:
+**
+Descriptions of class offerings including:**
 
 Beginner Wheel Throwing
 
@@ -77,8 +77,8 @@ Ceramic Sculpture
 Seasonal Pottery Sessions
 
 Enrollment Form
-
-A functional form where users can:
+**
+A functional form where users can:**
 
 Enter name
 
